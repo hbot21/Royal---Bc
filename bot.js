@@ -75,11 +75,11 @@ client.on('message', message => {
 client.on('message', async msg => {
     var prefix = "ر";
     var user = msg.author;
-            var a = msg.guild.roles.find("name", 'League Of Legends');
+            var a = msg.guild.roles.find("name", 'Agar');
         if(!a){
         a = await msg.guild.createRole({
-          name: "League Of Legends",
-          color: "#ffffff",
+          name: "Agar",
+          color: "#000000",
           permissions:[]
         })
        
@@ -88,7 +88,7 @@ client.on('message', async msg => {
     if(!m){
         m =  await msg.guild.createRole({
           name: "Minecraft",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
@@ -96,7 +96,7 @@ client.on('message', async msg => {
         if(!f){
         f =  await msg.guild.createRole({
           name: "Fortnite",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
@@ -104,7 +104,7 @@ var m = msg.guild.roles.find("name", 'Minecraft');
     if(!m){
         m =  await msg.guild.createRole({
           name: "Minecraft",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
@@ -112,7 +112,7 @@ var m = msg.guild.roles.find("name", 'Minecraft');
         if(!f){
         f =  await msg.guild.createRole({
           name: "Cs GO",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
@@ -120,7 +120,7 @@ var m = msg.guild.roles.find("name", 'Minecraft');
         if(!b){
         b =  await msg.guild.createRole({
           name: "Creative Destruction",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
@@ -128,7 +128,7 @@ var m = msg.guild.roles.find("name", 'Minecraft');
     if(!black){
         black =  await msg.guild.createRole({
           name: "Blacksquad",
-          color: "#ffffff",
+          color: "#000000",
           permissions:[]
         })
         }
