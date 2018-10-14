@@ -6,8 +6,6 @@ client.on('ready', () => {
 });
 
 const prefix = '.'
-var prefix = ".";
-
 client.on("message", message => {
             if (message.content.startsWith(prefix + "bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
